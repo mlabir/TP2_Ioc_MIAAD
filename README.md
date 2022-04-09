@@ -18,7 +18,18 @@ L'injection d'instance dao:
 
 ![version annotation](https://user-images.githubusercontent.com/102171913/162547950-7ee66b63-8ba2-455f-9052-cbb481cbe29e.PNG)
 
-pour compiler l'application via le cmd on utilise la comane mvn compiler:
+pour compiler l'application via le cmd on utilise la commande :--> mvn compiler:
 
 ![image](https://user-images.githubusercontent.com/102171913/162548363-8f1955e6-d8d6-476d-aeae-903bc1969fa5.png)
 
+pour executer le test on utilise la commande :--> mvn  test
+
+![image](https://user-images.githubusercontent.com/102171913/162548494-434e5549-98ab-4007-bbea-03c91b27e4a7.png)
+
+pour  generer les packages : --> mvn package
+
+et pour simplifier les chose et faire la compilation, le teste, et la generation les packages et l'envoyer vers  repository maven utilisant tout simplement la commande ---> mvn install
+
+et on peut eviter l'utilisation de ces commandes dans le terminale car ils existent dejà dans l'IDE
+
+![image](https://user-images.githubusercontent.com/102171913/162548752-f3ecd99f-ace0-4dc4-9f2d-a67908028997.png)
